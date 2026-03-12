@@ -48,7 +48,7 @@ void insertionsort()
             arr[j + 1] = arr[j];
             j--;
         }
-        
+
          arr[j + 1] = temp;
 
         cout << "\nstep " << i << ": ";
@@ -57,4 +57,19 @@ void insertionsort()
             cout << arr[k] << " ";
         }
     }
+}
+
+void display()
+{
+    cout << endl;
+    cout << "\n=================";
+    cout << "\nElemen Array" << endl;
+    cout << "\n=================" << endl;
+
+    for (int j = 0; j < n; j++)
+    {
+        cout << arr[j] << endl;
+    }
+
+    cout << endl;
 }
